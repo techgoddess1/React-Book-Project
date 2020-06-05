@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.book{
+  box-sizing: border-box;
+  padding: 20px ;
+  margin: 20px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+h1{
+  color: blue;
+}
+@media screen and (min-width:768px){
+  .books{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+  }
 }
